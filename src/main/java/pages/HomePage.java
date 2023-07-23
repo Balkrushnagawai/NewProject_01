@@ -7,8 +7,8 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	//Declaration
-	@FindBy (xpath="//a[@aria-current='page']")
-	private WebElement homeLogo;
+	//@FindBy (xpath="//a[@aria-current='page']")
+	//private WebElement homeLogo;
 	
 	@FindBy (xpath="//a[@aria-label='Friends']") 
 	private WebElement frndLogo;
